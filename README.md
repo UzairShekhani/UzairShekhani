@@ -1,4 +1,4 @@
-![logo](C:\Users\ADIL\Downloads\Capture2.PNG)
+![logo](https://github.com/UzairShekhani/UzairShekhani/blob/main/Capture2.PNG)
 <h1 align="center">Hi 👋, I'm Uzair Shekhani</h1>
 <h3 align="center">A passionate frontend developer from pakistan</h3>
 
