@@ -1,26 +1,212 @@
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![logo](https://github.com/UzairShekhani/UzairShekhani/blob/main/Capture2.PNG)
-<h1 align="center">Hi 👋, I'm Uzair Shekhani</h1>
-<h3 align="center">A passionate frontend developer from pakistan</h3>
 
-<img align="right" alt="coding" width=400 src="https://media1.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif">
+/* Auto generated, hash = 2xnr98u0iux66h5q9lkxquv5q */
+//TODO: Break this file down so that we can actually unit test it.
+(function(window) {
+  /**
+  * Renders all unrendred LinkedIn Badges on the page
+  */
+  window.LIRenderAll = function () {
+    var CALLBACK_NAME     = 'LIBadgeCallback', //Must match callback on helpers.js
+        BADGE_NAMES       = '.LI-profile-badge, .LI-entity-badge',
+        // TODO -- tracking param for other badge types
+        TRACKING_PARAM    = 'profile-badge',
+        responsesReceived = 0, //Keeps track of number of responses recieved for proper cleanup when finished
+        expectedResponses = 0, //Keeps track of number of responses to expect
+        scripts           = [ ], //Keeps track of scripts added for proper cleanup when finished
+        childScripts      = {}, //Keeps track of child scripts to render
+        badges            = Array.prototype.slice.call(document.querySelectorAll(BADGE_NAMES));
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=uzairshekhani&label=Profile%20views&color=0e75b6&style=flat" alt="uzairshekhani" /> </p>
+    var i, len, badge, rendered;
+    for (i = 0, len = badges.length;  i < len; i++) {
+      badge    = badges[i];
+      rendered =  badge.getAttribute('data-rendered');
+      if (!rendered) {
+        expectedResponses++;
+        badge.setAttribute('data-rendered', true);
+        renderBadge(badge);
+      }
+    }
 
-- 🌱 I’m currently learning **HTML5 , CSS3 , JAVASCRIPT**
+    function isCNDomain() {
+      if (typeof window !== "undefined") {
+        var hostName = window.location && window.location.hostname ||  '';
+        return (/linkedin(-ei)?.cn$/).test(hostName);
+      }
 
-- 📫 How to reach me **UzairShekhani2017@gmail.com**
+      return false;
+    }
 
-- ⚡ Fun fact **Act Like A Fool _ Think Like A Genius**
+    function generateUrl(isEI) {
+      var domainPrefix = isEI ? 'https://badges.linkedin-ei' : 'https://badges.linkedin';
+      if (isCNDomain()) {
+        return domainPrefix + ".cn/";
+      }
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/uzairshekhani" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="uzairshekhani" height="30" width="40" /></a>
-<a href="https://fb.com/عزير شيخاني" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="عزير شيخاني" height="30" width="40" /></a>
-</p>
+      return domainPrefix + ".com/";
+    }
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
+    function getBadgeKeyQueryParams(badge) {
+      return Array.prototype.slice.call(badge.attributes).filter(function (attr) {
+        return attr.name.lastIndexOf('data-key-', 0) !== -1;
+      }).map(function (attr) {
+        // Most browsers automatically lowercase the attribute name when its being read
+        // We are calling lowercase on it again to ensure consistency for any browsers that are lagging behind.
+        return encodeURIComponent(attr.name.replace('data-', '').toLowerCase()) + '=' + encodeURIComponent(attr.value);
+      });
+    }
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=uzairshekhani&show_icons=true&locale=en" alt="uzairshekhani" /></p>
+    /*
+    * Renders a single badge on the page
+    * @param badge: div element of badge to render
+    */
+    function renderBadge(badge) {
+      var size       = badge.getAttribute('data-size'),
+          locale     = badge.getAttribute('data-locale'),
+          type       = badge.getAttribute('data-type'),
+          theme      = badge.getAttribute('data-theme'),
+          vanity     = badge.getAttribute('data-vanity'),
+          version    = badge.getAttribute('data-version'),
+          isEI       = badge.hasAttribute('data-ei'),
+          entity     = badge.getAttribute('data-entity'),
+          isCreatePage = badge.hasAttribute('data-iscreate'),
+          uid        = Math.round(1000000 * Math.random()),
+          baseUrl = generateUrl(isEI),
+          queryParams = [
+            'locale=' + encodeURIComponent(locale),
+            'badgetype=' + encodeURIComponent(type),
+            'badgetheme=' + encodeURIComponent(theme),
+            'uid=' + encodeURIComponent(uid),
+            'version=' + encodeURIComponent(version)
+          ],
+          url;
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=uzairshekhani&" alt="uzairshekhani" /></p>
+      if (version === 'v2') {
+        baseUrl += 'view';
+        queryParams.push('badgesize=' + encodeURIComponent(size));
+        queryParams.push('entity=' + encodeURIComponent(entity));
+        queryParams = queryParams.concat(getBadgeKeyQueryParams(badge));
+      } else {
+        baseUrl += 'profile';
+        queryParams.push('maxsize=' + encodeURIComponent(size));
+        queryParams.push('trk=' + encodeURIComponent(TRACKING_PARAM));
+        queryParams.push('vanityname=' + encodeURIComponent(vanity));
+      }
+
+      if (isCreatePage) {
+        queryParams.push('fromCreate=true');
+      }
+
+      url = baseUrl + '?' + queryParams.join('&');
+      badge.setAttribute('data-uid' , uid);
+      jsonp(url); //Calls responseHandler when done
+    }
+
+    /**
+    * Handles a response from the server. Finds badge matching badgeUid and inserts badgeHtml there
+    * @param badgeHtml: String representing contents of the badge
+    * @param badgeUid: UID of the badge to target
+    **/
+    function responseHandler(badgeHtml, badgeUid) {
+      responsesReceived ++;
+
+      var i, badge, uid, isCreate;
+      var defaultWidth = 330 // max possible width
+      var defaultHeight = 300 // max possible height
+
+      for (i = 0, len = badges.length; i < len; i++) {
+        badge = badges[i];
+        // isCreate needed to prevent reloading artdeco script tag
+        isCreate = badge.getAttribute('data-iscreate');
+        uid   = parseInt(badge.getAttribute('data-uid'), 10);
+        if (uid === badgeUid) {
+          var badgeMarkup = `<body>${badgeHtml}</body>`
+          var iframe = document.createElement('iframe');
+          iframe.onload = function() {
+            var iframeBody = iframe.contentWindow.document.body;
+            // 5 px buffer to avoid the badge border being cut off.
+            iframe.setAttribute('height', (iframeBody.scrollHeight || defaultHeight) + 5);
+            iframe.setAttribute('width', (iframeBody.scrollWidth || defaultWidth) + 5);
+          };
+          iframe.setAttribute('frameBorder', '0');
+          iframe.style.display = 'block';
+          badge.appendChild(iframe);
+          iframe.contentWindow.document.open();
+          iframe.contentWindow.document.write(badgeMarkup);
+          iframe.contentWindow.document.close();
+          replaceScriptTags(badge, isCreate);
+        }
+      }
+      tryClean();
+    }
+
+  // These functions are needed because badge markup is added via innerHtml property which does not run script tags
+  function replaceScriptTags(node, isCreate) {
+    if (shouldReplaceNode(node, isCreate)) {
+      node.parentNode.replaceChild(cloneScriptNode(node), node);
+      childScripts[node.src] = true;
+    } else {
+      var i = 0,
+          children = node.childNodes;
+      while (i < children.length) {
+        replaceScriptTags(children[i++], isCreate);
+      }
+    }
+    return node;
+  }
+
+  function shouldReplaceNode(node, isCreate) {
+    return isScriptNode(node) && !childScripts[node.src] && (!isCreate || (isCreate && !node.getAttribute('data-isartdeco')));
+  }
+
+  function isScriptNode(node) {
+    return node.tagName === 'SCRIPT';
+  }
+
+  function cloneScriptNode(node){
+    var script  = document.createElement("script");
+    for( var i = node.attributes.length-1; i >= 0; i-- ) {
+      script.setAttribute( node.attributes[i].name, node.attributes[i].value );
+    }
+    return script;
+  }
+
+    // Gets all incoming responses
+    window[CALLBACK_NAME] = responseHandler;
+
+    /**
+    * Tries to clean added tags
+    **/
+    function tryClean() {
+      //Clean up after all requests are done..
+      //Accounts for people including script more than once
+      var done = (responsesReceived >= expectedResponses && expectedResponses > 0) || responsesReceived >= badges.length;
+      if (done) {
+        delete window[CALLBACK_NAME];
+
+        // remove all script tags
+        scripts.map(function(script){
+          document.body.removeChild(script);
+        });
+
+      }
+    }
+
+    /*
+    * Makes Jsonp request, responses handles by CALLBACK_NAME
+    * @param url String: url of server to make request to
+    */
+    function jsonp(url) {
+      var script = document.createElement('script');
+      script.src = url;
+      scripts.push(script);
+      document.body.appendChild(script);
+    }
+  };
+
+  if (document.readyState === 'complete') {
+    window.LIRenderAll();
+  } else {
+    window.addEventListener('load', window.LIRenderAll, false);
+  }
+
+})(window);
