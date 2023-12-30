@@ -6,7 +6,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=uzairshekhani&label=Profile%20views&color=0e75b6&style=flat" alt="uzairshekhani" /> </p>
 
-- 🌱 I’m currently learning **HTML5 , CSS3 , JAVASCRIPT , BOOTSTARP5 REACTJS**
+- 🌱 I’m currently learning **HTML5 , CSS3 , JAVASCRIPT , BOOTSTARP5 , REACTJS**
 
 - 📫 How to reach me **UzairShekhani2017@gmail.com**
 
