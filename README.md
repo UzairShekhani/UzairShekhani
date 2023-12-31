@@ -1,4 +1,4 @@
-# 💫 About Me:
+# 💫 Uzair Shekhani Here:
 🔭 I’m currently working on  HTML5 , CSS3 , JAVASCRIPT , BOOTSTARP5 , REACTJS<br>👯 I’m looking to collaborate on UzairShekhani2017@gmail.com<br>🤝 I’m looking for help with<br>🌱 I’m currently learning React JS , Type Script , Tailwind CSS<br>💬 Ask me about<br>⚡ Fun fact Act Like A Fool _ Think Like A Genius
 
 
