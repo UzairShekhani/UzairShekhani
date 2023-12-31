@@ -1,18 +1,79 @@
-# 💫 Uzair Shekhani Here:
-🔭 I’m currently working on  HTML5 , CSS3 , JAVASCRIPT , BOOTSTARP5 , REACTJS<br>👯 I’m looking to collaborate on UzairShekhani2017@gmail.com<br>🤝 I’m looking for help with<br>🌱 I’m currently learning React JS , Type Script , Tailwind CSS<br>💬 Ask me about<br>⚡ Fun fact Act Like A Fool _ Think Like A Genius
 
+<img alt="Coding" style="border-radius:16px;" src="./images/background.png">
 
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://www.facebook.com/uzair.shekhani) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/uzair.shekhani) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/uzair-shekhani) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/https://www.twitter.com/uzair.shekhani) 
+<h3 align="center" style="margin-top: 4px;">A PASSIONATED SOFTWARE ENGINEER!</h3>
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white) ![Ant-Design](https://img.shields.io/badge/-AntDesign-%230170FE?style=for-the-badge&logo=ant-design&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Uber](https://img.shields.io/badge/Uber-%23000000.svg?style=for-the-badge&logo=Uber&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=UzairShekhani&theme=dark&hide_border=false&include_all_commits=false&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=UzairShekhani&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=UzairShekhani&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
+<p>
+	Hello, fellow coders and tech enthusiasts! I'm a passionate software engineer, a dedicated MERN stack developer, and a budding AI and chatbot developer, deeply in love with the art of programming. Here on my GitHub account, you'll find a treasure trove of my coding adventures and projects that reflect my unending passion for creating innovative solutions, particularly in the realm of AI and chatbot development.
 
----
-[![](https://visitcount.itsvg.in/api?id=UzairShekhani&icon=5&color=0)](https://visitcount.itsvg.in)
+Within this GitHub realm, you'll discover a diverse array of projects, code snippets, and experiments spanning various domains. From web applications harnessing the latest technologies to AI-driven chatbots that enhance user experiences, my GitHub is a testament to my unwavering commitment to the world of software development.
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+Programming isn't merely a job; it's a way of life. I'm motivated by the desire to craft meaningful solutions, tackle complex challenges, and embark on a perpetual journey of learning and growth in this dynamic field, with a special focus on AI and chatbot development.
+
+Feel free to explore, collaborate, or connect if you share the same fervor for software development and the exciting world of AI and chatbots. Together, we can elevate the digital landscape, one line of code at a time!</p>
+
+| Currently Learning | DialogFlow, OpenAI |
+| ------------------ | --------- |
+
+<p align="center">
+	<a href="https://mabdullahjs.com/" align="center" target="_blank"
+		style="font-size:2rem; letter-spacing:0.3rem; font-weight:800; text-align:center; border:2px solid">MY PERSONAL
+		PORTFOLIO WEBSITE</a>
+</p>
+
+<hr>
+<h3 align="left">📫 Connect with me on 🔗 :</h3>
+
+<p align="left">
+	<a href="https://www.linkedin.com/in/mabdullahjs/" target="blank"><img align="center"
+			src="https://skillicons.dev/icons?i=linkedin" height="50" width="50" alt="linkedin" /></a>
+	<a href="https://twitter.com/mabdullah2037" target="blank" style="padding:8px"><img align="center" style="margin:8px"
+			src="https://skillicons.dev/icons?i=twitter" height="50" width="50" alt="twitter icon" /></a>
+	<a href="https://www.instagram.com/m.abdullah_js/" target="blank" style="padding:8px"><img align="center"
+			src="https://skillicons.dev/icons?i=instagram" alt="mabdullah" height="50" width="50" /></a>
+	<img src="https://komarev.com/ghpvc/?username=shehza-d&label=Profile%20views&color=11eb11&style=for-the-badge"
+		alt="mabdullah" align="right" />
+</p>
+<hr>
+
+<h3 align="left">Languages and Tools ⚙️ : </h3>
+
+<p align='center'>
+	<img src="https://skillicons.dev/icons?i=git,github,vscode" />
+	<img src="https://skillicons.dev/icons?i=js,css,nextjs,tailwind,postgres" />
+	<img src="https://skillicons.dev/icons?i=react,express,mongodb,nodejs,ts" />
+	<img src="https://skillicons.dev/icons?i=postman,vercel" />
+	<img src="https://skillicons.dev/icons?i=redux,md,materialui,firebase" />
+	<a href="#">
+		<img alt="GitHub" title="GitHub" width="40" height="40" src="./images/github.png" style="padding-right:5px;" />
+	</a>
+	<a href="https://nextjs.org/" target="_blank" rel="noreferrer" title="NextJS in PIAIC">
+		<img src="./images/nextjs.png" alt="nextjs" width="45" height="45" />
+	</a>
+	<a href="https://www.npmjs.com/" target="_blank" rel="noreferrer" title="NPM" style="text-decoration: none;">
+		<img src="./images/icons8-npm-48.png" alt="NPM" width="40" height="40" />
+	</a>
+	<a href="https://socket.io/" target="_blank" rel="noreferrer"
+		title="Socket.IO for Real Time Updating low-latency communication" style="text-decoration: none;">
+		<img src="https://socket.io/images/logo.svg" alt="socket.IO" width="40" height="40" />
+	</a>
+	<a href="https://formik.org/" target="_blank" title="Build Form in REACT" style="text-decoration: none;">
+		<img src="./images/formik.png" width="40px" />
+	</a>
+</p>
+
+<hr>
+
+<h3 align="left">🏫 Plans of Learning :</h3>
+
+<p align="center">
+	<img src="https://skillicons.dev/icons?i=solidity,nestjs,threejs,tensorflow,docker" />
+	<img src="https://skillicons.dev/icons?i=bash,redis,wasm,webflow,jest" />
+	<img src="https://skillicons.dev/icons?i=kubernetes,fastapi,d3,swift,aws" />
+	<a href="https://cloud.google.com/dialogflow" target="_blank" title="DialogFlow for ChatBots by Sir Inzamam"
+		style="text-decoration: none;">
+		<img src="./images/dialogflow.png" width="40px" />
+	</a>
+</p>
+<hr>
+<br>
