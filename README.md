@@ -12,11 +12,11 @@ Programming isn't merely a job; it's a way of life. I'm motivated by the desire 
 
 Feel free to explore, collaborate, or connect if you share the same fervor for software development and the exciting world of AI and chatbots. Together, we can elevate the digital landscape, one line of code at a time!</p>
 
-| Currently Learning | DialogFlow, OpenAI |
+| Currently Learning | React VUE.JS |
 | ------------------ | --------- |
 
 <p align="center">
-	<a href="https://mabdullahjs.com/" align="center" target="_blank"
+	<a href="https://uzairshekhani.github.io/Uzair-Shekhani-Portfolio/" align="center" target="_blank"
 		style="font-size:2rem; letter-spacing:0.3rem; font-weight:800; text-align:center; border:2px solid">MY PERSONAL
 		PORTFOLIO WEBSITE</a>
 </p>
