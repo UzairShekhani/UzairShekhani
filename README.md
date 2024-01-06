@@ -1,16 +1,16 @@
 
 <img alt="Coding" style="border-radius:16px;" src="./images/background.png">
 
-<h3 align="center" style="margin-top: 4px;">A PASSIONATED SOFTWARE ENGINEER!</h3>
+<h3 align="center" style="margin-top: 4px;">Frontend Developer | React.js & Vue.js Enthusiast!</h3>
 
 <p>
-	Hello, fellow coders and tech enthusiasts! I'm a passionate software engineer, a dedicated MERN stack developer, and a budding AI and chatbot developer, deeply in love with the art of programming. Here on my GitHub account, you'll find a treasure trove of my coding adventures and projects that reflect my unending passion for creating innovative solutions, particularly in the realm of AI and chatbot development.
+	Hello! I'm Uzair Shekhani, a passionate Frontend Developer with a solid foundation in HTML5, CSS3, JavaScript (ECMA), Bootstrap5, jQuery, React.js, and Vue.js.
 
-Within this GitHub realm, you'll discover a diverse array of projects, code snippets, and experiments spanning various domains. From web applications harnessing the latest technologies to AI-driven chatbots that enhance user experiences, my GitHub is a testament to my unwavering commitment to the world of software development.
+My goal is to continuously enhance my skills by staying focused on React.js and Vue.js, applying them to real-world projects. I take pride in the diversity of my technical expertise, incorporating a range of technologies into my projects. I aspire to create not only efficient code but also user-friendly and visually appealing applications.
 
-Programming isn't merely a job; it's a way of life. I'm motivated by the desire to craft meaningful solutions, tackle complex challenges, and embark on a perpetual journey of learning and growth in this dynamic field, with a special focus on AI and chatbot development.
+Every day, I dedicate time to learning new things and tackling fresh challenges, considering my coding journey as an exciting and evolving process. I aim not just to write code but to build sustainable and scalable codebases.
 
-Feel free to explore, collaborate, or connect if you share the same fervor for software development and the exciting world of AI and chatbots. Together, we can elevate the digital landscape, one line of code at a time!</p>
+If you're interested in my skills and expertise or would like to explore collaboration opportunities, feel free to connect with me through [Your Contact Information]. I'm excited about the possibility of collaborating with you and exploring new projects!</p>
 
 | Currently Learning | React VUE.JS |
 | ------------------ | --------- |
@@ -25,9 +25,9 @@ Feel free to explore, collaborate, or connect if you share the same fervor for s
 <h3 align="left">📫 Connect with me on 🔗 :</h3>
 
 <p align="left">
-	<a href="https://www.linkedin.com/in/mabdullahjs/" target="blank"><img align="center"
+	<a href="https://www.linkedin.com/in/uzairshekhani/" target="blank"><img align="center"
 			src="https://skillicons.dev/icons?i=linkedin" height="50" width="50" alt="linkedin" /></a>
-	<a href="https://twitter.com/mabdullah2037" target="blank" style="padding:8px"><img align="center" style="margin:8px"
+	<a href="https://www.facebook.com/uzair.shekhani" target="blank" style="padding:8px"><img align="center" style="margin:8px"
 			src="https://skillicons.dev/icons?i=twitter" height="50" width="50" alt="twitter icon" /></a>
 	<a href="https://www.instagram.com/m.abdullah_js/" target="blank" style="padding:8px"><img align="center"
 			src="https://skillicons.dev/icons?i=instagram" alt="mabdullah" height="50" width="50" /></a>
