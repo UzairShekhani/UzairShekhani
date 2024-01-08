@@ -1,5 +1,5 @@
 
-<img alt="Coding" style="border-radius:16px;" src="./images/background.png">
+<img alt="Coding" style="border-radius:16px;" src="https://github.com/UzairShekhani/UzairShekhani/blob/main/Connor%20Hamilton.png">
 
 <h3 align="center" style="margin-top: 4px;">Frontend Developer | React.js & Vue.js Enthusiast!</h3>
 
