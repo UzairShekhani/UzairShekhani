@@ -45,20 +45,20 @@ If you're interested in my skills and expertise or would like to explore collabo
 	<img src="https://skillicons.dev/icons?i=postman,vercel" />
 	<img src="https://skillicons.dev/icons?i=redux,md,materialui,firebase" />
 	<a href="#">
-		<img alt="GitHub" title="GitHub" width="40" height="40" src="./images/github.png" style="padding-right:5px;" />
+<!-- 		<img alt="GitHub" title="GitHub" width="40" height="40" src="./images/github.png" style="padding-right:5px;" /> -->
 	</a>
 	<a href="https://nextjs.org/" target="_blank" rel="noreferrer" title="NextJS in PIAIC">
-		<img src="./images/nextjs.png" alt="nextjs" width="45" height="45" />
+<!-- 		<img src="./images/nextjs.png" alt="nextjs" width="45" height="45" /> -->
 	</a>
 	<a href="https://www.npmjs.com/" target="_blank" rel="noreferrer" title="NPM" style="text-decoration: none;">
-		<img src="./images/icons8-npm-48.png" alt="NPM" width="40" height="40" />
+<!-- 		<img src="./images/icons8-npm-48.png" alt="NPM" width="40" height="40" /> -->
 	</a>
 	<a href="https://socket.io/" target="_blank" rel="noreferrer"
 		title="Socket.IO for Real Time Updating low-latency communication" style="text-decoration: none;">
 		<img src="https://socket.io/images/logo.svg" alt="socket.IO" width="40" height="40" />
 	</a>
 	<a href="https://formik.org/" target="_blank" title="Build Form in REACT" style="text-decoration: none;">
-		<img src="./images/formik.png" width="40px" />
+<!-- 		<img src="./images/formik.png" width="40px" /> -->
 	</a>
 </p>
 
@@ -72,7 +72,7 @@ If you're interested in my skills and expertise or would like to explore collabo
 	<img src="https://skillicons.dev/icons?i=kubernetes,fastapi,d3,swift,aws" />
 	<a href="https://cloud.google.com/dialogflow" target="_blank" title="DialogFlow for ChatBots by Sir Inzamam"
 		style="text-decoration: none;">
-		<img src="./images/dialogflow.png" width="40px" />
+<!-- 		<img src="./images/dialogflow.png" width="40px" /> -->
 	</a>
 </p>
 <hr>
