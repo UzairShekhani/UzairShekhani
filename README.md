@@ -1,7 +1,7 @@
 
 <img alt="Coding" style="border-radius:16px;" src="https://github.com/UzairShekhani/UzairShekhani/blob/main/Connor%20Hamilton.png">
 
-<h3 align="center" style="margin-top: 4px;">Frontend Developer | React.js & Vue.js Enthusiast!</h3>
+<h3 align="center" style="margin-top: 4px;">Frontend Developer | Backend Enthusiast!</h3>
 
 <p>
 	Hello! I'm Uzair Shekhani, a passionate Frontend Developer with a solid foundation in HTML5, CSS3, JavaScript (ECMA), Bootstrap5, jQuery, React.js, and Vue.js.
