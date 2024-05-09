@@ -15,11 +15,7 @@ If you're interested in my skills and expertise or would like to explore collabo
 | Currently Learning | React VUE.JS |
 | ------------------ | --------- |
 
-<p align="center">
-	<a href="https://uzairshekhani.github.io/Uzair-Shekhani-Portfolio/" align="center" target="_blank"
-		style="font-size:2rem; letter-spacing:0.3rem; font-weight:800; text-align:center; border:2px solid">MY PERSONAL
-		PORTFOLIO WEBSITE</a>
-</p>
+
 
 <hr>
 <h3 align="left">📫 Connect with me on 🔗 :</h3>
