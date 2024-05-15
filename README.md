@@ -1,18 +1,23 @@
 
 <img alt="Coding" style="border-radius:16px;" src="https://github.com/UzairShekhani/UzairShekhani/blob/main/Connor%20Hamilton.png">
 
-<h3 align="center" style="margin-top: 4px;">MERN Stack Developer</h3>
+<h1 align="center" style="margin-top: 4px;">MERN Stack Developer</h1>
 
 <p>
-	Hello! I'm Uzair Shekhani, a passionate Frontend Developer with a solid foundation in HTML5, CSS3, JavaScript (ECMA), Bootstrap5, jQuery, React.js, and Vue.js.
+	
+Absolutely! Here's a shorter and more attractive version with emojis:
 
-My goal is to continuously enhance my skills by staying focused on React.js and Vue.js, applying them to real-world projects. I take pride in the diversity of my technical expertise, incorporating a range of technologies into my projects. I aspire to create not only efficient code but also user-friendly and visually appealing applications.
+Hey there! 👋 I'm Uzair Shekhani, a passionate Full-Stack Developer specialized in the MERN stack (MongoDB, Express.js, React.js, Node.js). 💻
 
-Every day, I dedicate time to learning new things and tackling fresh challenges, considering my coding journey as an exciting and evolving process. I aim not just to write code but to build sustainable and scalable codebases.
+With a strong foundation in HTML5, CSS3, JavaScript (ECMA), Bootstrap5, jQuery, React.js, and Vue.js, I'm now focused on creating robust web applications using the MERN stack. 🚀
 
-If you're interested in my skills and expertise or would like to explore collaboration opportunities, feel free to connect with me through [Your Contact Information]. I'm excited about the possibility of collaborating with you and exploring new projects!</p>
+I love crafting efficient, scalable code that delivers outstanding user experiences and visually appealing interfaces. 💡
 
-| Currently Learning | React VUE.JS |
+Every day, I dive into mastering MongoDB, Express.js, React.js, and Node.js to build end-to-end solutions that meet modern web standards. 🌐
+
+Excited about taking on new challenges and collaborating on innovative projects! Let's connect: [Your Contact Information] 📧
+
+| Currently Learning |Rust|
 | ------------------ | --------- |
 
 
