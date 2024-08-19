@@ -1,5 +1,5 @@
 
-<img alt="Coding" style="border-radius:16px;" src="https://github.com/UzairShekhani/UzairShekhani/blob/main/Connor%20Hamilton.png">
+<img alt="Coding" style="border-radius:16px;" src="https://github.com/UzairShekhani/UzairShekhani/blob/main/channels4_banner.jpg">
 
 <h1 align="center" style="margin-top: 4px;">MERN Stack Developer</h1>
 
@@ -28,6 +28,7 @@ Excited about taking on new challenges and collaborating on innovative projects!
 <p align="left">
 	<a href="https://www.linkedin.com/in/uzairshekhani/" target="blank"><img align="center"
 			src="https://skillicons.dev/icons?i=linkedin" height="50" width="50" alt="linkedin" /></a>
+   
 	
 </p>
 <hr>
