@@ -1,5 +1,8 @@
 
-<img alt="Coding" style="border-radius:16px;" src="">
+<div align="center">
+  <img alt="Coding" style="border-radius:16px;" src="https://github.com/UzairShekhani/UzairShekhani/blob/main/36257380-b4d3729c-1267-11e8-9649-eeba9cc69c77.png">
+</div>
+
 
 <h1 align="center" style="margin-top: 4px;">MERN Stack Developer</h1>
 
