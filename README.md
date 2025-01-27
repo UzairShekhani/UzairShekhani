@@ -7,8 +7,6 @@
 <h1 align="center" style="margin-top: 4px;">MERN Stack Developer</h1>
 
 <p>
-	
-Absolutely! Here's a shorter and more attractive version with emojis:
 
 Hey there! 👋 I'm Uzair Shekhani, a passionate Full-Stack Developer specialized in the MERN stack (MongoDB, Express.js, React.js, Node.js). 💻
 
