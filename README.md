@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img alt="Coding" style="border-radius:16px;" src="https://github.com/UzairShekhani/UzairShekhani/blob/main/36257380-b4d3729c-1267-11e8-9649-eeba9cc69c77.png">
+  <img alt="Coding" style="border-radius:16px;" src="https://github.com/standforhumanity/stand-with-palestine/blob/main/Banners/Banner1.svg">
 </div>
 
 
